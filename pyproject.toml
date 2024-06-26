@@ -10,7 +10,7 @@ description = "A snippet management system using LanceDB"
 authors = [
     {name = "Mrigank Kumar", email = "mkpro118@gmail.com"},
 ]
-readme = "README.md"
+readme = {file = "README.txt", content-type = "text/markdown"}
 license = {file = "LICENSE"}
 classifiers = [
   "Development Status :: 5 - Production/Stable",
@@ -34,6 +34,7 @@ dependencies = [
     "tantivy",
     "Wikipedia-API",
 ]
+dynamic = ["version", "reamde"]
 
 [project.urls]
 Repository = "https://github.com/mkpro118/lancedb-snippets.git"
@@ -45,6 +46,9 @@ dev = [
     "isort>=5.13.0",
     "mypy>=1.10.0",
 ]
+
+[tool.setuptools]
+
 
 [tool.black]
 line-length = 80
