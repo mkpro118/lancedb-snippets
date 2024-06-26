@@ -1,0 +1,6 @@
+lancedb
+numpy
+pandas
+sentence_transformers
+tantivy
+Wikipedia-API
