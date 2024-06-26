@@ -4,7 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lancedb-snippets"
-version = "1.0.0"
 requires-python = ">=3.9"
 description = "A snippet management system using LanceDB"
 authors = [
