@@ -4,13 +4,27 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lancedb-snippets"
-version = "0.1.0"
+version = "1.0.0"
+requires-python = ">=3.9"
 description = "A snippet management system using LanceDB"
-readme = "README.md"
-requires-python = ">=3.11"
-license = {file = "LICENSE"}
 authors = [
     {name = "Mrigank Kumar", email = "mkpro118@gmail.com"},
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+
+  # Indicate who your project is intended for
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+
+  "License :: OSI Approved :: MIT License",
+
+  # Specify the Python versions you support here.
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
 ]
 dependencies = [
     "lancedb",
@@ -20,6 +34,10 @@ dependencies = [
     "tantivy",
     "Wikipedia-API",
 ]
+
+[project.urls]
+Repository = "https://github.com/mkpro118/lancedb-snippets.git"
+Issues = "https://github.com/mkpro118/lancedb-snippets/issues"
 
 [project.optional-dependencies]
 dev = [
