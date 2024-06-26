@@ -34,7 +34,7 @@ dependencies = [
     "tantivy",
     "Wikipedia-API",
 ]
-dynamic = ["version", "reamde"]
+dynamic = ["version", "readme"]
 
 [project.urls]
 Repository = "https://github.com/mkpro118/lancedb-snippets.git"
